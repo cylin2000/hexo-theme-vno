@@ -3,7 +3,7 @@ hexo-theme-vno
 
 这个主题是原创为[onevat的vno](https://github.com/onevcat/vno), 它遵从简洁和响应式的设计风格，拥有一个独立的封面，易于集成的 Disqus 评论和多说系统，Google Analytics,字体图标以及多种颜色。
 
-此主题为基于Hexo的vno主题，是由monniya的new-vno [github地址](https://github.com/monniya/hexo-theme-new-vno.git) 复刻而来，因为多说评论系统已经关闭，我增加了基于Valine评论系统，并修复了部分不蒜子阅读统计不显示以及其他一些小bug。
+此主题为基于Hexo的vno主题，是由monniya的[new-vno](https://github.com/monniya/hexo-theme-new-vno.git) 复刻而来，因为多说评论系统已经关闭，我增加了基于Valine评论系统，并修复了不蒜子阅读统计不显示以及其他一些小bug。
 
 ## Demo Show
 
