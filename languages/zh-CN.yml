@@ -1,5 +1,5 @@
-newerpost: 最近的文章
-olderpost: 更早的文章
+newerpost: 下一篇
+olderpost: 上一篇
 read: 阅读
 next: 更早
 previous: 最近
@@ -10,5 +10,5 @@ mygoogleplus: Google+
 myfacebook: 上Facebook找我
 mytwitter: 上Twitter找我
 myemail: 邮件联系我
-blog: 文字阁
+blog: 博客
 visitblog: 访问博客

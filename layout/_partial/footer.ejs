@@ -1,11 +1,17 @@
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <footer class="footer">
     <span class="footer__copyright">
         &copy; <%- date(Date.now(), 'YYYY') %> <%= config.author || config.title %><% if (theme.site_license) { %> - <%- theme.site_license %><% } %>
        
     </span>
     <span class="footer__copyright">
-            <% if (theme.theme_message) { %> - <%- theme.theme_message %><% } %>
-         </span>
+        <% if (theme.theme_message) { %> <%- theme.theme_message %><% } %>
+    </span>
+    <span class="footer__copyright">
+        <span id="busuanzi_container_site_pv">
+            本站总访问量<span id="busuanzi_value_site_pv"></span>次
+        </span>
+    </span>
        
     
   <% if (page.mathjax){ %>

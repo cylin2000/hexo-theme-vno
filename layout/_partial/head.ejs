@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <%
     var title = page.title;
-    title = title ? (title + ' | ' + config.title) : (config.subtitle ? config.title + " | " + config.subtitle : config.title);
+    title = title ? (title + ' | ' + config.title) : (config.subtitle ? config.title : config.title);
     var description = "";
     if (page.description || theme.description || config.description) {
         description = page.description || theme.description || config.description;
@@ -41,6 +41,7 @@
     <meta name="author" content="<%= config.author %>">
     <% } %>
     <%- css('css/vno') %>
+    
     <%- css('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css') %>
 
     <% if (theme.favicon){ %>
@@ -56,5 +57,9 @@
 
     <% if (theme.social["google_plus"]) { %>
     <link rel="author" href="<%= theme.social['google_plus'] %>"/>
-    <% } %>             
+    <% } %>         
+    
+    <% if (theme.valine_app_id && theme.valine_app_secret) { %>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <% } %>
 </head>

@@ -60,6 +60,16 @@
     </a>
   </li>
 <% } %>
+
+<!-- Email -->
+<% if (theme.social.email) { %>
+  <li class="navigation__item">
+    <a href="<%= theme.social.email%>" title="<%= __('myemail') %>" target="_blank">
+      <i class='social fa fa-envelope'></i>
+      <span class="label">Email</span>
+    </a>
+  </li>
+<% } %>
   
 <% if (theme.rss) { %>
   <li class="navigation__item">
