@@ -95,22 +95,9 @@ baidu_tongji: 百度统计识别码
 favicon: /images/avatar-small.png
 ```
 谷歌跟踪ID：
-![谷歌统计](source/images/show/google-analytics.jpeg)
+![谷歌统计](source/images/show/google-analytics.jpg)
 百度统计识别码：
-![百度统计](source/images/show/baidu_tongji.jpeg)
-
-### 文章
-
-喵神没有设置categories，只用tags
-例如：
-```yml
----
-title: 文章名称
-date: 2016-03-03 10:46:46
-tags: 分类
----
-```
-![百度统计](source/images/show/article.jpeg)
+![百度统计](source/images/show/baidu_tongji.jpg)
 
 ### 数学公式支持
 
